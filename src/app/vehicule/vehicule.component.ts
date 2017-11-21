@@ -14,7 +14,9 @@ export class VehiculeComponent implements OnInit {
   searchLoader: boolean;
 
   public data;
-  public filterQuery = "";
+  public filterID = "";
+  public filterTitle = "";
+  public filterUrl = "";
   public rowsOnPage = 10;
   public sortBy = "email";
   public sortOrder = "asc";
